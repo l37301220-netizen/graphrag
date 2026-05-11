@@ -1,69 +1,37 @@
-# Python Artifacts
-python/*/lib/
+```
+# Compressed files
+*.tar.gz
+
+# Dependencies and build artifacts
+node_modules/
 dist/
 build/
-*.egg-info/
-
-# Test Output
+target/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 .coverage
 coverage/
-licenses.txt
-examples_notebooks/*/data
-tests/fixtures/cache
-tests/fixtures/*/cache
-tests/fixtures/*/output
-output/lancedb
+htmlcov/
 
-
-# Random
-.DS_Store
-*.log*
-.venv
-venv/
-.conda
-.tmp
-packages/graphrag-llm/notebooks/metrics
-packages/graphrag-llm/notebooks/cache
-
+# Environment files
 .env
-build.zip
+.env.local
+*.env.*
 
-.turbo
-
-__pycache__
-
-.pipeline
-
-# Azurite
-temp_azurite/
-__azurite*.json
-__blobstorage*.json
-__blobstorage__/
-
-# Getting started example
-ragtest/
-.ragtest/
-.pipelines
-.pipeline
-
-
-# mkdocs
-site/
-
-# Docs migration
-docsite/
-.yarn/
-.pnp*
-
-# PyCharm
+# Editor/IDE files
+.vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# Jupyter notebook
-.ipynb_checkpoints/
+# System files
+.DS_Store
+Thumbs.db
 
-# Root build assets
-packages/*/LICENSE
-
-# Notebooks outputs
-packages/graphrag-*/example_notebooks/**/output
-packages/graphrag-*/example_notebooks/**/cache
+# Logs
+*.log
+```
