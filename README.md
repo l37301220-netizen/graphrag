@@ -1,10 +1,6 @@
 # GraphRAG
 
-👉 [Microsoft Research Blog Post](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)<br/>
-👉 [Read the docs](https://microsoft.github.io/graphrag)<br/>
-👉 [GraphRAG Arxiv](https://arxiv.org/pdf/2404.16130)
 
-<div align="left">
   <a href="https://pypi.org/project/graphrag/">
     <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/graphrag">
   </a>
